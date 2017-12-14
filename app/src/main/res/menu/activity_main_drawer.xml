@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/sentSms"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Sent Sms" />
+        <item
+            android:id="@+id/receivedSms"
+            android:icon="@drawable/ic_sms"
+            android:title="received Sms" />
+        <item
+            android:id="@+id/callLogs"
+            android:icon="@drawable/ic_call"
+            android:title="Call Logs" />
+        <item
+            android:id="@+id/contacts"
+            android:icon="@drawable/ic_contact"
+            android:title="Contacts" />
+    </group>
+
+    <item android:title="Social media">
+        <menu>
+            <item
+                android:id="@+id/fcbNotifs"
+                android:icon="@drawable/ic_fcb"
+                android:title="Facebook notifications" />
+            <item
+                android:id="@+id/instagramNotifs"
+                android:icon="@drawable/ic_insta"
+                android:title="Instagram Notifications" />
+            <item
+                android:id="@+id/emailNotif"
+                android:icon="@drawable/ic_action_name"
+                android:title="Email Notifications" />
+        </menu>
+    </item>
+
+</menu>
